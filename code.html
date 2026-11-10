@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aurelia | Hand-poured candles</title>
+  <meta name="description" content="Aurelia makes hand-poured soy and coconut wax candles in six scents, with a burn time of about 55 hours.">
+  <meta name="theme-color" content="#2A1E3B">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#candles">Skip to candles</a>
+
+  <div class="stage on-dark">
+    <header class="wrap top">
+      <a class="mark" href="#">Aurelia</a>
+      <nav aria-label="Main">
+        <a href="#candles">Candles</a>
+        <a href="#craft">Our craft</a>
+        <a href="#care">Burn guide</a>
+        <a href="mailto:hello@aurelia.example?subject=Order">Order</a>
+      </nav>
+    </header>
+
+    <section class="wrap hero">
+      <div class="hero-copy">
+        <h1>Light that takes its time.</h1>
+        <p>Hand-poured soy and coconut wax candles in six scents. Each one burns for about 55 hours.</p>
+        <div class="actions">
+          <a class="btn" href="#candles">Shop candles</a>
+          <a class="btn btn-quiet" href="#craft">How we pour</a>
+        </div>
+      </div>
+      <div class="scene" role="img" aria-label="A lit pillar candle on a dish">
+        <div class="glow"></div>
+        <svg class="flame" viewBox="0 0 40 80" aria-hidden="true">
+          <defs>
+            <radialGradient id="fl" cx="50%" cy="72%" r="60%">
+              <stop offset="0" stop-color="#FFF6D6"/>
+              <stop offset=".35" stop-color="#FFE3A0"/>
+              <stop offset=".75" stop-color="#F4B84A"/>
+              <stop offset="1" stop-color="#E88A2E"/>
+            </radialGradient>
+          </defs>
+          <path d="M20 0C24 18 40 30 40 52C40 68 31 80 20 80C9 80 0 68 0 52C0 30 16 18 20 0Z" fill="url(#fl)"/>
+          <ellipse cx="20" cy="66" rx="6" ry="10" fill="#6A8CFF" opacity=".55"/>
+        </svg>
+        <div class="wick"></div>
+        <div class="pillar"></div>
+        <div class="dish"></div>
+      </div>
+    </section>
+
+    <ul class="wrap facts">
+      <li><strong>Hand-poured</strong>Small batches of 40, poured every week.</li>
+      <li><strong>Clean-burning wax</strong>Soy and coconut wax with cotton wicks. No paraffin.</li>
+      <li><strong>Fast dispatch</strong>Orders leave the studio within two business days.</li>
+    </ul>
+  </div>
+
+  <main>
+    <section class="section" id="candles">
+      <div class="wrap">
+        <h2>The collection</h2>
+        <p class="lead">Six scents in one size: a 220 g candle with a burn time of about 55 hours.</p>
+
+        <div class="grid">
+          <article class="product">
+            <div class="tile" style="--tint:#E4D8EC; --jar:#4B3269"><div class="jar" role="img" aria-label="Dusk Fig candle jar"><i class="spark"></i><span><b>Aurelia</b><em>Dusk Fig</em></span></div></div>
+            <h3>Dusk Fig</h3>
+            <p>Fig leaf, cedar, warm milk</p>
+            <p class="buy"><b>$34</b><a href="mailto:hello@aurelia.example?subject=Order%3A%20Dusk%20Fig">Order Dusk Fig</a></p>
+          </article>
+
+          <article class="product">
+            <div class="tile" style="--tint:#F0DFC0; --jar:#B9811F"><div class="jar" role="img" aria-label="Saffron Hour candle jar"><i class="spark"></i><span><b>Aurelia</b><em>Saffron Hour</em></span></div></div>
+            <h3>Saffron Hour</h3>
+            <p>Saffron, amber, tonka bean</p>
+            <p class="buy"><b>$36</b><a href="mailto:hello@aurelia.example?subject=Order%3A%20Saffron%20Hour">Order Saffron Hour</a></p>
+          </article>
+
+          <article class="product">
+            <div class="tile" style="--tint:#D5E0E8; --jar:#3F5568"><div class="jar" role="img" aria-label="Rain on Slate candle jar"><i class="spark"></i><span><b>Aurelia</b><em>Rain on Slate</em></span></div></div>
+            <h3>Rain on Slate</h3>
+            <p>Wet stone, vetiver, mint</p>
+            <p class="buy"><b>$34</b><a href="mailto:hello@aurelia.example?subject=Order%3A%20Rain%20on%20Slate">Order Rain on Slate</a></p>
+          </article>
+
+          <article class="product">
+            <div class="tile" style="--tint:#CFC3DE; --jar:#E9E1EC"><div class="jar" role="img" aria-label="Night Jasmine candle jar"><i class="spark"></i><span><b>Aurelia</b><em>Night Jasmine</em></span></div></div>
+            <h3>Night Jasmine</h3>
+            <p>Jasmine, green tea, white musk</p>
+            <p class="buy"><b>$38</b><a href="mailto:hello@aurelia.example?subject=Order%3A%20Night%20Jasmine">Order Night Jasmine</a></p>
+          </article>
+
+          <article class="product">
+            <div class="tile" style="--tint:#F0D2C6; --jar:#A8452F"><div class="jar" role="img" aria-label="Smoked Orange candle jar"><i class="spark"></i><span><b>Aurelia</b><em>Smoked Orange</em></span></div></div>
+            <h3>Smoked Orange</h3>
+            <p>Blood orange, birch tar, clove</p>
+            <p class="buy"><b>$36</b><a href="mailto:hello@aurelia.example?subject=Order%3A%20Smoked%20Orange">Order Smoked Orange</a></p>
+          </article>
+
+          <article class="product">
+            <div class="tile" style="--tint:#D7E4DC; --jar:#7E9A8A"><div class="jar" role="img" aria-label="Linen Morning candle jar"><i class="spark"></i><span><b>Aurelia</b><em>Linen Morning</em></span></div></div>
+            <h3>Linen Morning</h3>
+            <p>Clean cotton, bergamot, white pepper</p>
+            <p class="buy"><b>$32</b><a href="mailto:hello@aurelia.example?subject=Order%3A%20Linen%20Morning">Order Linen Morning</a></p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tinted" id="craft">
+      <div class="wrap split">
+        <div>
+          <h2>Poured slowly, cured properly</h2>
+          <p class="lead">Every candle is made by hand in a small batch, then left to rest before it ships.</p>
+        </div>
+        <ol class="steps">
+          <li><h3>Melt</h3><p>Soy and coconut wax is melted and held at 75 °C so it stays smooth.</p></li>
+          <li><h3>Scent</h3><p>Fragrance oil is stirred in at 65 °C. We use 9% oil: enough to fill a room without a harsh edge.</p></li>
+          <li><h3>Pour</h3><p>Each jar is poured in two stages to keep the top flat.</p></li>
+          <li><h3>Cure</h3><p>Candles rest for ten days so the scent settles into the wax.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="care">
+      <div class="wrap split">
+        <div>
+          <h2>Burn guide</h2>
+          <p class="lead">Three habits that give you every one of the 55 hours. Never leave a burning candle unattended.</p>
+        </div>
+        <div class="faq">
+          <details open><summary>How long should the first burn last?</summary><p>Until the wax melts to the edge of the jar, usually 2 to 3 hours. This prevents tunnelling and keeps the burn even.</p></details>
+          <details><summary>How short should I trim the wick?</summary><p>To about 5 mm before each burn. A short wick gives a steady flame and less soot.</p></details>
+          <details><summary>How do I put the candle out?</summary><p>Use a snuffer, or dip the wick into the wax and lift it back up. Blowing it out sends smoke into the room.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="on-dark foot">
+    <div class="wrap foot-grid">
+      <div>
+        <p class="mark">Aurelia</p>
+        <p>Hand-poured candles. © 2026 Aurelia Candle Co.</p>
+      </div>
+      <form action="mailto:hello@aurelia.example" method="post" enctype="text/plain">
+        <label for="email">Hear about new scents</label>
+        <div class="row">
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+          <button class="btn" type="submit">Join the list</button>
+        </div>
+        <small>One email a month. Unsubscribe any time.</small>
+      </form>
+    </div>
+  </footer>
+</body>
+</html>
